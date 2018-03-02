@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+build an artifact to upload to s3 in the dist folder
+ng build --prod --aot
+upload to s3
+aws s3 cp ./dist s3://marks-angular-s3 --recursive --acl public-read
+http://marks-angular-s3.s3-website-us-east-1.amazonaws.com/
