@@ -1,5 +1,7 @@
 export class Quiz{
     constructor(public name:string){
     }
-    public topic: string = "Maths";
+    public id: number;
+    public topic?: string;
+    public quizItems?: string;
 }

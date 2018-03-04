@@ -7,3 +7,12 @@
   </label>
 </div>
 
+<h2>My Quizez</h2>
+<ul class="heroes">
+  <li *ngFor="let q of quizes">
+    <span class="badge">{{q.id}}</span> {{q.name}} -- {{q.topic}}
+  </li>
+</ul>
+
+<app-questions></app-questions>
+
