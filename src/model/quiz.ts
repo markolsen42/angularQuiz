@@ -1,7 +1,6 @@
+import { QuizItem } from "./quiz-item";
+
 export class Quiz{
-    constructor(public name:string){
+    constructor(public id:string, public quizItems: QuizItem[]){
     }
-    public id: number;
-    public topic?: string;
-    public quizItems?: string;
 }

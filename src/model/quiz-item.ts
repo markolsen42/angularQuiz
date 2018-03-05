@@ -5,6 +5,6 @@ export class AnswerOption{
 }
 
 export class QuizItem{
-    constructor(public id: string, private question: string, public answerOptions: AnswerOption[]){       
+    constructor(private question: string, public answerOptions: AnswerOption[]){       
     }
 }
