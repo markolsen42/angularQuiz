@@ -1,0 +1,6 @@
+MultiChoice Quiz architecture
+
+we may have 3 quizzes in a Quiz []
+each quiz will have a topic and a title and a number of Quiz Items QuizItem[]
+each quiz item will have a question:string and answer options AnswerOptions[]
+answer options will be label:string and answerPossibility
